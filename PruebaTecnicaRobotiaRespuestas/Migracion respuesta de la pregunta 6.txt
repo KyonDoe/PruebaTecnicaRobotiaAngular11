@@ -1,0 +1,5 @@
+1) Hacer un backup de la aplicacion
+2) Hacer un backup de la base de datos
+3) Conectarse al ftp en el nuevo servidor y subir el backup de la aplicacion
+4) Crear la base de datos en el nuevo servidor con el usuario asociado y importar la base de datos de la cual se ha realizado un backup antes.
+4) Modificar fichero para restablecer los datos de conexión a la base de datos.

@@ -1,0 +1,21 @@
+<h2>Usuarios que han realizado alguna compra</h2>
+    <div *ngIf="error">{{error}}</div>
+    <div *ngIf="success">{{success}}</div>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Precio total de la compra</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of usuariosCompradores">
+                <td>{{item.nombre}}</td>
+                <td>{{item.correo}}</td>
+                <td>{{item.precioTotal}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
